@@ -75,6 +75,6 @@ const validateInputs = () => {
 };
 function validate(){
     if (validateInputs()){
-        receiveMessage(submitBtn, "You successfuly sent the message, We will send the responce soon!!")
+        document.write("You successfuly sent the message, We will send the responce soon!!")
     }
 }
