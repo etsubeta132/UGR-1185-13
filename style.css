@@ -157,7 +157,7 @@ nav li{
 
 /*********************************** container ****************************/
 .container {
-    margin: 40px 0;
+    margin: 5px 0  40px;
     display: grid;
     grid-template-rows: repeat(auto-fill,1fr);
     grid-gap: 100px;
