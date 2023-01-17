@@ -1,0 +1,83 @@
+@media screen and (max-width: 1000px){
+    header,.cover{
+        width: 100vw;
+    }
+    .cover{
+        height: 70vw;
+    }
+    .container-student-description{
+        width: fit-content;
+    }
+}
+@media screen and (max-width: 700px){
+    header,.cover{
+        width: 95vw;
+    }
+    .cover{
+        height: 70vw;
+    }
+    .header-right ul{
+        display: block;
+    }
+    .cover_block-field{
+        width:100px;
+        height: 40px;
+    }
+    #search-place-largefont{
+        font-size: 50px;
+    }
+    .container-about, .container-student{
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-about img{
+        width: 400px;
+    }
+    .container-student-description{
+        width: fit-content;
+    }
+    footer{
+        display: block;
+        height: fit-content;
+    }
+    .container-location{
+        display: block;
+    }
+    .location-info-specific,.location-form{
+        width: 100vw;
+    }
+    .container-student{
+        margin:20px;
+    }
+}
+@media screen and (max-width: 300px){
+    header,.cover{
+        width: 100vw;
+    }
+    .cover{
+        height: fit-content;
+        width: fit-content;
+    }
+    .container-student-description{
+        width: fit-content;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    #icon{
+        display: block;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-right ul{
+        display: none;
+    }
+    .responsive-nav{
+        display: block;
+    }
+   
+  }

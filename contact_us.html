@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact us</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaquery.css">
+    </head>
+    <body id="ContactUs">
+        <header>
+            <div class="header-left">
+                <a id="logo" href="#ContactUs">
+                    <h1><img src="images/logo.png" alt="education logo">
+                        <span lang="am">Yeneta</span></h1></a>
+            </div>
+            <nav  class="header-right" id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About</a></li>
+                    <li><a href="cources.html">Courses</a></li>
+                    <li class = "header-right dropdown-menu">More Pages
+                        <div class = "header-right dropdown-content" >
+                            <a href="instructor.html">Instructors</a>
+                            <a href="students_testimony.html">Students</a>
+                        </div>
+                    </li>
+                    <li><a href="#ContactUs"  class="header-right active">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="menu-icon">
+            </div>
+        </header>
+        <div class="overlay-bottom">
+            <div class="cover">
+                <h1 class="cover_block--place" id="search-place-largefont">Contact US</h1>
+                    <label for="finder_1"  class="cover_block-field">
+                        <button type="search" class="cover_block-field cover_btn--white">Cources</button>
+                    </label>
+                <div  class="cover_block--content">
+                    <select name="" id="finder_1"  class="cover_block-field">
+                        <option value="cources">Cources</option>
+                        <option value="Full Stack Web development">Full Stack Web development</option>
+                        <option value="Javascript full cource">Javascript full cource</option>
+                        <option value="python programming language">python programming language</option>
+                        <option value="Data structure and algorithm">Data structure and algorithm</option>
+                    </select>
+                    <input id="finder_2" type="text" placeholder="type Courses"  class="cover_block-field cover_block--input">
+                    <label for="finder_2"  class="cover_block-field">
+                        <button type="search" class="cover_block-field cover_btn--red">search</button>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="container-location">
+            <div class="location-info">
+                <div class="location-info-specific">
+                    <div><img src="images/location.png" alt="location representation"></div>
+                    <div>
+                        <h2>Our Location</h2> 
+                        <p>5kilo, addis ababa</p>
+                   </div>
+                </div>
+                <div class="location-info-specific">
+                <div><img src="images/call.png" alt="phone representation"></div>
+                    <div>
+                        <h2>Call Us</h2>
+                        <p>+251 97 867 2189</p>
+                    </div>
+                </div>
+                <div class="location-info-specific"> 
+                <div><img src="images/email.png" alt="email representation"></div>
+                    <div>
+                        <h2>Email Us</h2>
+                        <p>email@example.com</p>
+                    </div> 
+                </div>
+            </div>
+            <div class="location-form">
+                <form novalidate id="form">
+                    <h2>Send Us a messsage</h2>
+                        <div class="form-control">
+                            <label for="name-input">Your Name:</label>
+                            <input type="text" id="name-input" placeholder="Your Name" required="required">
+                            <div class="error"></div>
+                        </div>
+                        <div class="form-control">
+                            <label for="email-input">Your Email:</label>
+                            <input type="email" id="email-input" placeholder="Your Email" required="required">
+                            <div class="error"></div>
+                        </div>
+                        <div class="form-control">
+                            <label for="message-input">Your Message:</label>
+                            <textarea id="message-input" placeholder="Message" required="required"></textarea>
+                            <div class="error"></div>
+                        </div>
+                        <button class="submit-btn" id="submit-btn" type="submit" onclick="validate()">Send Message</button>
+                        <div id="success-message"></div>
+                </form>
+            </div>
+    </div>
+        <footer>
+            <div>
+                <h1>Get In Touch</h1>
+                <ul>
+                    <li>5kilo , addis ababa</li>
+                    <li>+251 97 867 2189</li>
+                    <li>email@example.com</li>
+                </ul>
+                    <button id="facebook">
+                        <img src="images/facebook.png" alt="follow us on facebook">
+                    </button>
+                    <button id="twitter" >
+                        <img src="images/twitter.png" alt="follow us on twitter">
+                    </button>
+                    <button id="messanger">
+                        <img src="images/messanger.png" alt="leave messsage on messanger">
+                    </button>
+            </div>
+            <div>
+                <h1>Our cources</h1>
+                <ul> 
+                    <li><a href="cources.html#Course_1" target="_blank">Full Stack Web development cource</a></li>
+                    <li><a href="cources.html#Course_2" target="_blank">Javascript full cource</a></li>
+                    <li><a href="cources.html#Course_3" target="_blank">python progamming language</a></li>
+                    <li><a href="cources.html#Course_4" target="_blank">Data structure and algorithm</a></li>
+                </ul>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+        <script src="formValidate.js"></script>
+    </body>
+</html>

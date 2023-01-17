@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Cources</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaquery.css">
+    </head>
+    <body id="course">
+        <header>
+            <div class="header-left">
+                <a id="logo" href="#course">
+                    <h1>
+                        <img src="images/logo.png" alt="education logo">
+                        <span lang="am">Yeneta</span>
+                    </h1>
+                </a>
+            </div>
+            <nav class="header-right" id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About</a></li>
+                    <li><a href="#course" class="header-right active">Courses</a></li>
+                    <li class = "header-right dropdown-menu">More pages
+                        <div class = "header-right dropdown-content">
+                            <a href="instructor.html">Instructors</a>
+                            <a href="students_testimony.html">Students</a>
+                        </div>
+                    </li>
+                    <li><a href="contact_us.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="menu-icon">
+            </div>
+        </header>
+        <div>
+            <div class="cover">
+                <h1  class="cover_block--place">Cources</h1>
+                    <label for="finder_1"  class="cover_block-field">
+                        <button type="search"  class="cover_block-field cover_btn--white">Cources</button>
+                    </label>
+                    <div  class="cover_block--content">
+                    <select name="" id="finder_1"  class="cover_block-field">
+                        <option value="cources">Cources</option>
+                        <option value="Full Stack Web development">Full Stack Web development</option>
+                        <option value="Javascript full cource">Javascript full cource</option>
+                        <option value="python programming language">python programming language</option>
+                        <option value="Data structure and algorithm">Data structure and algorithm</option>
+                    </select>
+                    <input id="finder_2" type="text" placeholder="type Courses"  class="cover_block-field cover_block--input">
+                    <label for="finder_2"  class="cover_block-field">
+                        <button type="search"   class="cover_block-field cover_btn--red">search</button>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div  class ="container-cource">
+            <h1>Our Cources</h1>
+            <h2>Explore the cources</h2>
+        <div class="container-cource-list">
+            <div id ="Course_1" class="container-cource-field">
+                <img src="images/FullStackweb.jpg" alt="Full Stack Web development cource">
+                <button class = "cource-list-button" onclick="courceDetail()">Cource Detail</button>
+            </div>
+            <div id = "Course_2"  class="container-cource-field">
+                <img src="images/JSCource.jpg" alt="Javascript full cource">
+                <button class = "cource-list-button" onclick="courceDetail()">Cource Detail</button>
+            </div>
+            <div id ="Course_3"  class="container-cource-field">
+                <img src="images/PythonCource.jpg" alt="python progamming language">
+                <button class = "cource-list-button" onclick="courceDetail()">Cource Detail</button>
+            </div>
+            <div id ="Course_4"  class="container-cource-field">
+                <img src="images/learnToCode.jpg" alt="Data structure and algorithm">
+                <button class = "cource-list-button" onclick="courceDetail()">Cource Detail</button>
+                
+            </div>
+        </div>
+        </div>
+        <footer>
+            <div>
+                <h1>Get In Touch</h1>
+                <ul>
+                    <li>5kilo , addis ababa</li>
+                    <li>+251 97 867 2189</li>
+                    <li>email@example.com</li>
+                </ul>
+                    <button id="facebook">
+                        <img src="images/facebook.png" alt="follow us on facebook">
+                    </button>
+                    <button id="twitter">
+                        <img src="images/twitter.png" alt="follow us on twitter">
+                    </button>
+                    <button id="messanger">
+                        <img src="images/messanger.png" alt="leave messsage on messanger">
+                    </button>
+            </div>
+            <div>
+                <h1>Our cources</h1>
+                <ul> 
+                    <li><a href="#Course_1">Full Stack Web development cource</a></li>
+                    <li><a href="#Course_2">Javascript full cource</a></li>
+                    <li><a href="#Course_3">python progamming language</a></li>
+                    <li><a href="#Course_4">Data structure and algorithm</a></li>
+                </ul>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
